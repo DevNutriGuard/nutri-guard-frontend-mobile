@@ -1,0 +1,1 @@
+/Users/apple/StudioProjects/Nutri/nutri-guard-mobile/build/app/intermediates/cxx/RelWithDebInfo/1g6p4ow1/obj/arm64-v8a

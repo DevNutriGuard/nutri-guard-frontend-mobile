@@ -1,0 +1,268 @@
+name: nutri_guard_mobile
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+8
+
+environment:
+  sdk: ^3.6.1
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  http: ^1.2.2
+  bloc: ^9.0.0
+  equatable: ^2.0.7
+  flutter_bloc: ^9.0.0
+  font_awesome_flutter: ^10.8.0
+  email_validator: ^3.0.0
+  flutter_svg: ^2.0.16
+  google_fonts: ^6.2.1
+  intl_phone_number_input: ^0.7.4
+  flutter_localization: ^0.3.1
+  fluttertoast: ^8.2.10
+  dio: ^5.7.0
+  connectivity_plus: ^6.1.1
+  provider: ^6.1.2
+  shared_preferences: ^2.3.3
+  image_picker: ^1.1.2
+  file_picker: ^8.1.6
+  google_sign_in: ^6.2.2
+  table_calendar: ^3.1.3
+  camera: ^0.11.1
+  firebase_core: ^3.11.0
+  firebase_messaging: ^15.2.2
+  firebase_in_app_messaging: ^0.8.1+2
+  flutter_local_notifications: ^18.0.1
+  flutter_facebook_auth: ^7.1.1
+  mime: ^2.0.0
+  path: ^1.9.0
+  image: ^4.5.2
+  dotted_border:
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^5.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/gif/
+    - assets/images/biohacking2.png
+    - assets/images/biohacking3.png
+    - assets/images/biohacking4.png
+    - assets/images/biohacking_image1.png
+    - assets/images/onboarding1.png
+    - assets/images/onboarding2.png
+    - assets/images/onboarding3.png
+    - assets/images/onboarding4.png
+    - assets/jpg/man_doing_pushups.jpg
+    - assets/png/
+    - assets/png/add.png
+    - assets/png/alcohol.png
+    - assets/png/app_logo_png.png
+    - assets/png/archive.png
+    - assets/png/avocado_toast.png
+    - assets/png/band_push_ups.png
+    - assets/png/biceps.png
+    - assets/png/blood_test_analysis.png
+    - assets/png/browse1.png
+    - assets/png/browse2.png
+    - assets/png/browse3.png
+    - assets/png/cable_push_ups.png
+    - assets/png/caffeine.png
+    - assets/png/carb_meal.png
+    - assets/png/check_heart_rate.png
+    - assets/png/check_icon.png
+    - assets/png/complete_check.png
+    - assets/png/connect_device.png
+    - assets/png/corba_push_ups.png
+    - assets/png/cup_world.png
+    - assets/png/db_overhead_push_press.png
+    - assets/png/dollar.png
+    - assets/png/double_quotation.png
+    - assets/png/double_stars.png
+    - assets/png/fat_meal.png
+    - assets/png/female.png
+    - assets/png/find_out_your_fitness_level.png
+    - assets/png/fitbit.png
+    - assets/png/fitness.png
+    - assets/png/fitness_ai_coach.png
+    - assets/png/fitness_summary.png
+    - assets/png/fitness_summary_r.png
+    - assets/png/food_cart.png
+    - assets/png/food_product_scanning.png
+    - assets/png/full_shot_man_doing_pushups.png
+    - assets/png/garmin.png
+    - assets/png/general_overview.png
+    - assets/png/hyde.png
+    - assets/png/hydration.png
+    - assets/png/ibuprofen.png
+    - assets/png/illustration.png
+    - assets/png/kcal_meal.png
+    - assets/png/lightbulb.png
+    - assets/png/like.png
+    - assets/png/logout.png
+    - assets/png/male.png
+    - assets/png/mass_gainer.png
+    - assets/png/meals_scanning.png
+    - assets/png/medical_image.png
+    - assets/png/medication_and_supplement_management_ai_coach.png
+    - assets/png/medication_intake_summary.png
+    - assets/png/nicotine.png
+    - assets/png/note.png
+    - assets/png/nutrition.png
+    - assets/png/nutrition_ai_coach.png
+    - assets/png/nutrition_summary.png
+    - assets/png/onboarding_image1.png
+    - assets/png/onboarding_image2.png
+    - assets/png/onboarding_image3.png
+    - assets/png/onboarding_image4.png
+    - assets/png/optimum_nutrition_gold.png
+    - assets/png/pause.png
+    - assets/png/polar.png
+    - assets/png/privacyImage.png
+    - assets/png/protein_meal.png
+    - assets/png/scan_history.png
+    - assets/png/security_and_privacy_policy.png
+    - assets/png/set_goal.png
+    - assets/png/set_your_goals.png
+    - assets/png/sleep.png
+    - assets/png/sleep_ai_coach.png
+    - assets/png/sleep_summary.png
+    - assets/png/smart_meal_scanner.png
+    - assets/png/subscription.png
+    - assets/png/subscription_image.png
+    - assets/png/supplement.png
+    - assets/png/supplement_intake_summary.png
+    - assets/png/time.png
+    - assets/png/upload_file.png
+    - assets/png/watch.png
+    - assets/png/water.png
+    - assets/png/wearable_data.png
+    - assets/svg/
+    - assets/svg/backward.svg
+    - assets/svg/biohacking.svg
+    - assets/svg/body.svg
+    - assets/svg/calories.svg
+    - assets/svg/cardiology.svg
+    - assets/svg/forwardIcon.svg
+    - assets/svg/full-shot-man-doing-pushups.svg
+    - assets/svg/hydration.svg
+    - assets/svg/logo.svg
+    - assets/svg/respiratory.svg
+    - assets/svg/sleepIcon.svg
+    - assets/svg/spo2.svg
+    - assets/svg/stress.svg
+    - assets/svg/timer.svg
+    - assets/svg/wearable.svg
+    - assets/svg/mail.svg
+    - assets/svg/google.svg
+    - assets/svg/phone.svg
+    - assets/png/privacy-matter1.png
+    - assets/png/privacy-matter2.png
+    - assets/png/privacy-matter3.png
+    - assets/svg/profile.svg
+    - assets/png/file-symlink.png
+    - assets/png/add-icon.png
+    - assets/png/scan-line.png
+    - assets/png/afterave-image.png
+    - assets/png/bone-base-image.png
+    - assets/png/card-arrow-icon.png
+    - assets/png/forward-arrow-icon.png
+    - assets/png/calendar-icon.png
+    - assets/png/chevron-down.png
+    - assets/png/double-chevron-down.png
+    - assets/svg/avocado-toast.svg
+    - assets/png/salad.png
+    - assets/png/edit.png
+    - assets/png/certified-blue.png
+    - assets/png/certified-red.png
+    - assets/png/circle-check.png
+    - assets/png/circle-x.png
+    - assets/png/noun-warning-red.png
+    - assets/png/noun-warning.png
+    - assets/png/noun-warning-yellow.png
+    - assets/images/dishImage.png
+
+  fonts:
+    - family: InterTight-Bold
+      fonts:
+        - asset: assets/fonts/InterTight/InterTight-Bold.ttf
+    - family: InterTight-Light
+      fonts:
+        - asset: assets/fonts/InterTight/InterTight-Light.ttf
+    - family: InterTight-Medium
+      fonts:
+        - asset: assets/fonts/InterTight/InterTight-Medium.ttf
+    - family: InterTight-Regular
+      fonts:
+        - asset: assets/fonts/InterTight/InterTight-Regular.ttf
+    - family: InterTight-SemiBold
+      fonts:
+        - asset: assets/fonts/InterTight/InterTight-SemiBold.ttf
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package

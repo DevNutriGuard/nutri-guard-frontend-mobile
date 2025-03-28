@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "98824196514",
+    "project_id": "ai-nutriguard",
+    "storage_bucket": "ai-nutriguard.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98824196514:android:c979dab7fa2d06052662fb",
+        "android_client_info": {
+          "package_name": "ai.nutriguard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "98824196514-70t0fnf1sf66308nj896i46fmabdv1jd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ai.nutriguard",
+            "certificate_hash": "0a3cab71cf17fe7db3732ee2ed05872dad8e1af7"
+          }
+        },
+        {
+          "client_id": "98824196514-pq6203aaep6cf8ibaggr8gi7bqen7gkr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ai.nutriguard",
+            "certificate_hash": "dde140c8df5d099118d7ca262a9e65654b5f5b93"
+          }
+        },
+        {
+          "client_id": "98824196514-ckmp5mooafvb91v31u9q3lpsetsk2h39.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBX-g7ZdGR3R5U38hDxzRX49Y-YnsIwzRM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "98824196514-ckmp5mooafvb91v31u9q3lpsetsk2h39.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "98824196514-j5bampj0lq6c4ofhudqgso9440ej83cv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "ai.nutriguard"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

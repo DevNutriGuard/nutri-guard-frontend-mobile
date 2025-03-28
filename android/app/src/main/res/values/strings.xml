@@ -1,0 +1,4 @@
+<resources>
+    <string name="facebook_app_id">YOUR_FACEBOOK_APP_ID</string> <!-- Replace with your Facebook App ID -->
+    <string name="app_name">NutriGuard Ai</string>
+</resources>
